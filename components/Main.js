@@ -7,9 +7,9 @@ export default function Main() {
       <div class="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
         <div class="flex flex-col w-full mb-2 text-left md:text-center ">
           <h1 class="mb-2 text-6xl font-bold tracking-tighter text-white lg:text-8xl md:text-7xl">
-            <span>We are making </span>
+            <span>Extract details  </span>
             <br class="hidden lg:block"></br>
-            Stunning websites
+            Powered by AI
           </h1>
           <br></br>
           <p class="mx-auto  text-xl font-normal leading-relaxed text-gray-600 dark:text-gray-300 lg:w-2/3">
@@ -22,11 +22,17 @@ export default function Main() {
         </div>
       </div>
       <div class="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
-        <img
+        {/* <img
           class="object-cover object-center w-full mb-10 border-gray-200 dark:border-gray-900 g327 border rounded-lg shadow-md"
           alt="hero"
-          src="./images/placeholder.png"
-        ></img>
+          src="https://cdn.dribbble.com/userupload/2449330/file/original-78b7c9396fcd8100bd41518dde36afdf.m4v"
+        ></img> */}
+
+<video autoplay loop muted>
+    <source className="object-cover object-center w-1/2 mb-10 border-gray-200 dark:border-gray-900 g327 border rounded-lg shadow-md" 
+    src="https://cdn.dribbble.com/users/975591/screenshots/17845529/media/8e742d986bcbbd2fc5053477ac4a790d.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
       </div>
       <section class="text-gray-600 body-font">
         <section class="text-gray-600 body-font">
